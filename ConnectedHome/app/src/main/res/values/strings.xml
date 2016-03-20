@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConnectedHome</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_comparitor">ComparitorActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="image_description">description</string>
+    <string name="title_activity_start">Connected Home</string>
+
+    <string name="touch_to_begin">touch to begin</string>
+
+</resources>
