@@ -2,10 +2,9 @@ package com.virtusventure.connectedhome;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class ComparitorActivity extends AppCompatActivity {
+public class ComparitorActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

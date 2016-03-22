@@ -1,9 +1,8 @@
 package com.virtusventure.connectedhome;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

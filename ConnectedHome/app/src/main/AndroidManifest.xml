@@ -16,8 +16,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".ComparitorActivity"
             android:label="@string/title_activity_comparitor"
@@ -27,17 +26,22 @@
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".StartActivity"
             android:label="@string/title_activity_start"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+
 </manifest>

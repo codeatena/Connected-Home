@@ -13,6 +13,7 @@ public class StartActivity extends AppCompatActivity {
 
     TextView tvBeginButton;
     VideoView videoView;
+    TextView startButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,15 @@ public class StartActivity extends AppCompatActivity {
 
         tvBeginButton = (TextView) findViewById(R.id.begin_button_textView);
         videoView = (VideoView) findViewById(R.id.videoView);
+
+        startButton =  (TextView)findViewById(R.id.start_button);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartActivity.this, MainActivity.class));
+                finish();
+            }
+        });
 
         tvBeginButton.setOnClickListener(new View.OnClickListener() {
             @Override
